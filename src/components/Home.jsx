@@ -26,6 +26,7 @@ const Home = () => {
     else{
       //create
       dispatch(addToPastes(paste));
+      
     }
     //after creation or updation of the paste clear all fields
     setTitle("");
